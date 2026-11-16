@@ -1,0 +1,18 @@
+PS C:\Users\simon\Downloads\vscode-workspaces>  & 'c:\Users\simon\Downloads\vscode-workspaces\data-science-from-scratch\.venv\Scripts\python.exe' 'c:\Users\simon\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '53777' '--' 'c:\Users\simon\Downloads\vscode-workspaces\python-workspace\mini_rag.py' 
+PS C:\Users\simon\Downloads\vscode-workspaces> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\simon\Downloads\vscode-workspaces\data-science-from-scratch\.venv\Scripts\Activate.ps1)
+(.venv) PS C:\Users\simon\Downloads\vscode-workspaces>  c:; cd 'c:\Users\simon\Downloads\vscode-workspaces'; & 'c:\Users\simon\Downloads\vscode-workspaces\data-science-from-scratch\.venv\Scripts\python.exe' 'c:\Users\simon\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '53839' '--' 'c:\Users\simon\Downloads\vscode-workspaces\python-workspace\mini_rag.py' 
+Created sample documents in ./docs
+Loaded 9 chunks. Ask a question (or type 'quit').
+
+Question: what to do on a monthly maint window?
+
+Retrieved: ['payroll_app_runbook.txt', 'incident_process.txt', 'reporting_app_manual.txt']
+
+Answer: The context only covers the monthly maintenance window for the payroll app, and it gives limited guidance:
+
+- **Timing:** The window is the first Sunday of each month from 2am to 4am [payroll_app_runbook.txt].
+- **Notification:** Notify stakeholders by email 5 business days before the window [payroll_app_runbook.txt].
+
+The context doesn't include any specific tasks or steps to carry out during the window itself, so I don't know what to do during it. Nothing in the other files (incident_process.txt, reporting_app_manual.txt) describes maintenance window procedures.
+
+Question: Traceback (most recent call last):
